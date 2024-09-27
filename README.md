@@ -1,48 +1,23 @@
 Kai of <a href="https://precisionplanit.com">PrecisionPlanIT.com</a> presents:
 
-# Virtual Here Client - Free Initializer
-> A very simple script with the purpose of launching Virtual Here via CMD/CLI for use with Sunshine, Task Scheduler at boot, etc. When I tried to run Virtual Here directly from Sunshine commands in the Web UI, I was met with dissapointment that my Moonlight client would try to connect for a long time before failing. This could have easily been accomplished with a .bat file, yet I already had .ahk code written for another script.
-
-### Features:
-- Load Virtual Here at boot via Task Scheduler, on remote connection via Sunshine commands, or other methods; so you can bind usb devices directly to the client from the server. It's really simple!
-
-### CMD/CLI Arguements:
-Triggers Client_Start launched via script without arguments or executing directly.
-> "C:\<pathto>\VH_Manage.ahk"[/.exe]
-Exits the client.
-> "C:\<pathto>\VH_Manage.ahk"[/.exe] Client_Exit
-Starts the client. Filename is optional otherwise the client exe is expected to be in the same folder as the script.
-> "C:\<pathto>\VH_Manage.ahk"[/.exe] Client_Start <filename>
-Toggles the Server. Filename is optional otherwise the server exe is expected to be in the same folder as the script.
-> "C:\<pathto>\VH_Manage.ahk"[/.exe] Server_Toggle <filename>
+# HWiNFO_Refresh
+> A very simple script with the purpose of terminating and relaunching HWiNFO before the 12 hour timer is exhausted for free users. This is done so HWiNFO can be used for tools like Rainmeeter without having to relaunch manually to retain the Shared Memory Support in versions past 6.42. This could have easily been accomplished with a .bat file, yet I already had .ahk code written for another script.
 
 # Installation:
-1. Unpack the .exe or the .ahk source file into the folder (optionally where you store the Virtual Here Client executable ~ vhui64.exe). Note: If you wish to use the ".ahk" file (plain-text source code), you must install [Autohotkey](https://www.autohotkey.com).
-2. Set up a task in task scheduler or a command in the Sunshine WebUI to run the script.
-> Extra Credit: To setup the VH Server as a service that runs at boot you can run "VH_Server-install_uninstall.exe" from the same folder that contains the server executable.
+1. Unpack the .exe or the .ahk source file where you store the HWiNFO executable. Note: If you wish to use the ".ahk" file (plain-text source code), you must install [Autohotkey](https://www.autohotkey.com).
+2. Set up a task in task scheduler to run the script at boot.
 
 ### Notes / Hints:
-> This software is intended to make it a smoother experience while you are testing out Virtual Here as a solution for mounting USB devices on your machine to a different PC. The developer of Virtual Here deserves to get paid for their work, buying a license also will enable you to use up to 63 devices. This script is not a substitute for a license by any means. I encourage you to purchase a license if you like the product.
-
-### Integrating the tool with Sunshine:
-
-<img src="https://github.com/sofmeright/IDDSampleDriver_Wizard/blob/main/PPIT-IddSample_Wiz-SS_Sunshine_Integration.png" width="300" />
-
-> # Example:
-> cmd /C "C:\_Staging\_Staging\VirtualHere\VH_Client-FreeInit.ahk"
-
-- For some strange reason its possible to execute the Virtual Here Client with a .bat but not directly from Sunshine and it is not a syntax issue as we are effectively doing the same thing with the script. I do not know the cause of this.
-- Make sure to check the config.elevated option, admin is needed to launch Virtual Here, the tool will not run w/o elevation.
-- Point the sunshine command to the "VH_Client-FreeInit.ahk", that's all.
+> This software is intended to make it a smoother experience while you are testing out HWiNFO as a solution for providing Shared Memory Support to other applications. Functionality was added to disable this feature after 12 hours, after which you must manually re-enable it. The developers of HWiNFO deserve to get paid for their work, I understand their desire to monetize the project. Developement of free software takes time and has the potential to pull developers away from work that might otherwise cover their personal expenses. Buying a license will enable you to use other features and support continued development. This script is not intended to be a substitute for a license by any means. I encourage you to purchase a license if you like the product so they can continue to support newer hardware etc. If this tool poses any risk to continued developement it will be removed without notice. If you can afford HWiNFO; I repeat, please purchase it.
 
 ### Current Issues / Workarounds:
 - I don't think so.
 
 ### Planned Features:
-> Nope.
+> Nope. Feel free to raise an issue if this does not work for you or you have an idea for improvement. Otherwise I do not see the likelyhood of any updates on the horizon.
 
 ### Dependencies / Requirements:
-> This software seeks to launch Virtual Here as such you *obviously* would need Virtual Here. [Virtual Here Server](https://www.virtualhere.com/windows_server_software) & [Virtual Here Client](https://www.virtualhere.com/usb_client_software)
+> This software seeks to launch HWiNFO as such you *obviously* would need [HWiNFO](https://www.hwinfo.com).
 
 > This was written 100% with [Autohotkey](https://www.autohotkey.com), I first touched [Autohotkey](https://www.autohotkey.com) in 2010 or so. Why AutoHotkey? [Autohotkey](https://www.autohotkey.com) is super easy and efficient to carry out simple tasks programatically. I don't feel the need to pull out a more sophisticated language, honestly. In every release (I don't think there will ever be a new release of this 🤣) there is a ".ahk" plain-text source file, that you can inspect and even make changes. If you install [Autohotkey](https://www.autohotkey.com) you will be able to execute the source code directly.
 
