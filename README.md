@@ -9,6 +9,7 @@ Kai of <a href="https://precisionplanit.com">PrecisionPlanIT.com</a> presents:
 
 ### Notes / Hints:
 > This software is intended to make it a smoother experience while you are testing out HWiNFO as a solution for providing Shared Memory Support to other applications. Functionality was added to disable this feature after 12 hours, after which you must manually re-enable it. The developers of HWiNFO deserve to get paid for their work, I understand their desire to monetize the project. Developement of free software takes time and has the potential to pull developers away from work that might otherwise cover their personal expenses. Buying a license will enable you to use other features and support continued development. This script is not intended to be a substitute for a license by any means. I encourage you to purchase a license if you like the product so they can continue to support newer hardware etc. If this tool poses any risk to continued developement it will be removed without notice. If you can afford HWiNFO; I repeat, please purchase it.
+
 > HWiNFO is expected to be located at C:\\Program Files\\HWiNFO64\\HWiNFO64.EXE, if it's not there this script will not function as intended.
 
 ### Current Issues / Workarounds:
