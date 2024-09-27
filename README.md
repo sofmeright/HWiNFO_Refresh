@@ -5,7 +5,7 @@ Kai of <a href="https://precisionplanit.com">PrecisionPlanIT.com</a> presents:
 
 # Installation:
 1. Unpack the .exe or the .ahk source file where you store the HWiNFO executable. Note: If you wish to use the ".ahk" file (plain-text source code), you must install [Autohotkey](https://www.autohotkey.com).
-2. Set up a task in task scheduler to run the script at boot.
+2. Set up a task in task scheduler to run the script at boot. Or launch it manually.
 
 ### Notes / Hints:
 > This software is intended to make it a smoother experience while you are testing out HWiNFO as a solution for providing Shared Memory Support to other applications. Functionality was added to disable this feature after 12 hours, after which you must manually re-enable it. The developers of HWiNFO deserve to get paid for their work, I understand their desire to monetize the project. Developement of free software takes time and has the potential to pull developers away from work that might otherwise cover their personal expenses. Buying a license will enable you to use other features and support continued development. This script is not intended to be a substitute for a license by any means. I encourage you to purchase a license if you like the product so they can continue to support newer hardware etc. If this tool poses any risk to continued developement it will be removed without notice. If you can afford HWiNFO; I repeat, please purchase it.
