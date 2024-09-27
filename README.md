@@ -1,10 +1,10 @@
 Kai of <a href="https://precisionplanit.com">PrecisionPlanIT.com</a> presents:
 
 # HWiNFO_Refresh
-> A very simple script with the purpose of terminating and relaunching HWiNFO before the 12 hour timer is exhausted for free users. This is done so HWiNFO can be used for tools like Rainmeeter without having to relaunch manually to retain the Shared Memory Support in versions past 6.42.
+> A very simple script with the purpose of terminating and relaunching HWiNFO before the 12 hour timer is exhausted for free users. This is done so HWiNFO can be used for tools like Rainmeeter without having to relaunch manually to retain the Shared Memory Support in versions past 6.42. This could have easily been accomplished with a .bat file, yet I already had .ahk code written for another script.
 
 # Installation:
-1. Unpack the .exe or the .ahk source file. Note: If you wish to use the ".ahk" file (plain-text source code), you must install [Autohotkey](https://www.autohotkey.com).
+1. Unpack the .exe or the .ahk source file where you store the HWiNFO executable. Note: If you wish to use the ".ahk" file (plain-text source code), you must install [Autohotkey](https://www.autohotkey.com).
 2. Set up a task in task scheduler to run the script at boot.
 
 ### Notes / Hints:
