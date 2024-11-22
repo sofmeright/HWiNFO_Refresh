@@ -1,5 +1,7 @@
 Kai of <a href="https://precisionplanit.com">PrecisionPlanIT.com</a> presents:
 
+# 11/22 - UPDATE ~ This script has been removed. Apologies, received a PR from the developer of HWiNFO and will no longer be hosting this solution out of respect even if I disagree with the current monetization strategy, it is the developers right to name their price etc. And the purpose was not to evade the license it was to make only basic usage of the utility for overlays such as rainmeeter etc. I wanted to let anyone who was directed here know that is why you have reached a dead end. And I don't want you to think of this as the end. I am very busy now but if the developer of HWiNFO does not reply to my response to the PR with anything that gives us hope for a solution for basic use for users who can't yet afford the license I will try to find an alternative solution that does not use HWiNFO as the purpose here was to provide basic PC functionality I think should be possible for all experienced user regardless of income class. We will find something for yall as soon as I can regardless. I hope you can understand and vibe with this outcome. Peace!
+
 # HWiNFO_Refresh
 > A very simple script with the purpose of terminating and relaunching HWiNFO before the 12 hour timer is exhausted for free users. This is done so HWiNFO can be used for tools like Rainmeeter without having to manually relaunch to retain Shared Memory Support in versions past 6.42.
 
